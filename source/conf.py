@@ -52,7 +52,21 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 html_theme_path = ['themes']
 html_theme = 'il_theme'
 
+
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+
+#------------------- IL Customizations -------------------
+
+#remove "View Page Source" from the breadcrum menu
+html_show_sourcelink = False
+
+#remove footer copyright
+html_show_copyright = False
+html_show_sphinx = False
+
+html_favicon = 'images/il.ico'
+html_logo = 'images/IL_logo_white_clr_bkgd_200.png'
