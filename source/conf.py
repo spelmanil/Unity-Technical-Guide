@@ -70,3 +70,5 @@ html_show_sphinx = False
 
 html_favicon = 'images/il.ico'
 html_logo = 'images/IL_logo_white_clr_bkgd_200.png'
+
+source_suffix = ['.rst', '.md']

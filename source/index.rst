@@ -9,8 +9,22 @@ SpelmanVR Unity Guide
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :glob:
 
+   site_contents/Unity_and_GitHub/Unity_and_GitHub.rst
+
+   site_contents/page_01.md
+   site_contents/page01.rst
+
+
+Lorem ipsum
+===========
+
+.. toctree::
+   :maxdepth: 2
+   :glob:
+
+   site_contents/page_01.md
 
 
 Indices and tables
