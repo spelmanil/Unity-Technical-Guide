@@ -1,9 +1,0 @@
-
-Unity and GitHub
-================
-
-.. toctree::
-   :maxdepth: 2
-   :glob:
-
-   Unity_and_GitHub.md

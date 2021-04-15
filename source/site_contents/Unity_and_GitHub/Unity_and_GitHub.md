@@ -1,30 +1,34 @@
+Unity and GitHub
+================
+
 
 Instructions for using GitHub with Unity Personal
-=================================================
+-------------------------------------------------
 
-For Unity Personal, GitHub integration is not included.  This guide explains how to use GitHub with Unity Personal.  The guide is written for Mac users, but the outlined procedure should be similar for Windows users.  A prerequisite for this guide is having the GitHub Desktop application installed on your system.  You may download GitHub Desktop `here <https://desktop.github.com/>`_.
+For Unity Personal, GitHub integration is not included.  This guide explains how to use GitHub with Unity Personal.  The guide is written for Mac users, but the outlined procedure should be similar for Windows users.  A prerequisite for this guide is having the GitHub Desktop application installed on your system.  You may download GitHub Desktop [here](https://desktop.github.com/) .
 
-.. image:: images/git_hub_logo.jpg
-   :width: 300 px
-   :align: center
-
+<p align="center">
+<img src="images/git_hub_logo.jpg" width="300">
+</p>
+    
 Begin by selecting an existing Unity project that you want to put under GitHub control.  If you are creating a new project, create the project *before* creating the repository for it.  Unity will not create a project in an existing directory.
 
 For this example, assume we have created a Unity project in the directory
 
-::
-
-  /Users/Laura/Documents/myProject
+/Users/Laura/Documents/myProject
 
 Follow the steps below to get the project under GitHub control:
 
 **Step 1:** From the GitHub Desktop interface, select “Create New Repository”
 
-.. image:: images/Fig1.png
-   :width: 800 px
-   :align: center
+<p align="center">
+<img src="images/Fig1.png" width="800">
+</p>
+<br>
 
 **Step 2:** Refer to the figure below to fill in the popup window that appears.
+
+
 
 1. Enter the *parent* directory of the existing Unity project in the *Local Path* field.  In our example case, that would be “/Users/Laura/Documents”
 2. Enter the name of the existing Unity project directory in the *Name* field.  In our case, that would be “myProject”
@@ -34,31 +38,32 @@ Follow the steps below to get the project under GitHub control:
 
 Done.  If you are logged into your GitHub a/c, you should be immediately able to push the new repository to GitHub.
 
-.. image:: images/Fig2.png
-   :width: 500 px
-   :align: center
+<p align="center">
+<img src="images/Fig2.png" width="500">
+</p>
+<br>
 
 **Step 3:** *(optional; for Mac users only)*
 
 Mac users may consider adding the following to their .gitignore files:
 
-::
 
-  # OS generated files #
-  ######################
-  .DS_Store
-  .DS_Store?
-  .Spotlight-V100
-  .Trashes
-  ehthumbs.db
-  Thumbs.db
-
-
-MacOS generates a number of temporary files (some hidden, some not) that you will not want to add to your repository.  Besides taking up space, these files will make it difficult for you to tell whether the local files you care about are synced to your repository.  To avoid this, simply cut and paste the lines above to the end of your .git file.
+```
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+```
 
 
-----
+MacOS generates a number of temporary files (some hidden, some not) that you will not want to add to your repository.  Besides taking up space, these files will make it difficult for you to tell whether the local files you care about are synced to your repository.  To avoid this, simply cut and paste the lines above to the end of your .git file.  
 
-.. image:: /images/il_logo.png
-   :width: 100 px
-   :align: center
+
+<br><hr>
+<p align="center">
+<img src="images/il_logo.png" width="100">
+</p>

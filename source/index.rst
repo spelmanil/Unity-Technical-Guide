@@ -11,14 +11,11 @@ SpelmanVR Unity Guide
    :maxdepth: 2
    :glob:
 
-   site_contents/Unity_and_GitHub/Unity_and_GitHub.rst
+   site_contents/Unity_and_GitHub/Unity_and_GitHub.md
 
    site_contents/page_01.md
-   site_contents/page01.rst
 
 
-Lorem ipsum
-===========
 
 .. toctree::
    :maxdepth: 2
